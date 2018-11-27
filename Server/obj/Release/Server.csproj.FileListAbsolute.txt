@@ -1,0 +1,24 @@
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Database1.mdf
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Database1_log.ldf
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Command.dll
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Command.pdb
+C:\Users\валера\Desktop\курсов\Client\Server\obj\Release\Server.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Server.exe.config
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Server.exe
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Server.pdb
+C:\Users\валера\Desktop\курсов\Client\Server\obj\Release\Server.exe
+C:\Users\валера\Desktop\курсов\Client\Server\obj\Release\Server.pdb
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Games.dll
+C:\Users\валера\Desktop\курсов\Client\Server\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Database1.mdf
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Database1_log.ldf
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Server.exe.config
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Server.exe
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Server.pdb
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Command.dll
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Games.dll
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Command.pdb
+C:\Users\валера\Desktop\новая папка\Client\Server\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\Client\Server\obj\Release\Server.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Client\Server\obj\Release\Server.exe
+C:\Users\валера\Desktop\новая папка\Client\Server\obj\Release\Server.pdb

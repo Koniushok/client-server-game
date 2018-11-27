@@ -1,0 +1,91 @@
+﻿<UserControl x:Class="Login.GameMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Login"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"
+             d:DesignHeight="447"
+             d:DesignWidth="350.4">
+    <Grid Background="White">
+
+
+      
+
+        <Rectangle Width="280"
+                   Height="375"
+                   VerticalAlignment="Bottom"
+                   HorizontalAlignment="Center"
+                   RadiusY="10"
+                   RadiusX="10"
+                   Fill="White"
+                   Margin="35,0,35.4,48.8">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction="0"
+                                  ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+
+
+        <Button HorizontalAlignment="Center"
+                Content="Играть"
+                Margin="57,333,56.4,75.8"
+                Click="Button_Click"
+                Width="237">
+        </Button>
+
+
+        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                BorderBrush="{x:Null}"
+                Padding="0"
+                RenderTransformOrigin="0.5,0.5"
+                Margin="90,30,89.4,243.8"
+                Width="Auto"
+                Height="Auto">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush x:Name="ImgGame"
+
+                            Stretch="UniformToFill" />
+
+            </Button.Background>
+        </Button>
+
+        <TextBlock Margin="46,212,45.4,177.8"
+                   FontSize="20"
+                   FontFamily="Motorwerk"><Run Text="Быстрая игра предполагает " /><LineBreak /><Run Text="  " /><Run Text="поиск любого соперника" /></TextBlock>
+
+        <Grid Background="#BA000000"
+              x:Name="GridLoading"
+              Visibility="Hidden">
+            <Viewbox Margin="0,210,0.4,56.8">
+                <local:SpinnerSwirl Height="76"
+                                    Width="150">
+
+                </local:SpinnerSwirl>
+            </Viewbox>
+
+            <Button Content="Отмена"
+                    Visibility="Visible"
+                    Click="Button_Click_Stop"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="57,338,56.4,77.2"
+                    Width="237">
+
+            </Button>
+        </Grid>
+
+       
+    </Grid>
+</UserControl>

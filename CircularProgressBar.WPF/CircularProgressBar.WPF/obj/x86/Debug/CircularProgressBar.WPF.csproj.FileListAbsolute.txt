@@ -1,0 +1,16 @@
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\bin\Debug\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\bin\Debug\CircularProgressBar.WPF.pdb
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.baml
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\App.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF_MarkupCompile.cache
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF_MarkupCompile.lref
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\MainWindow.baml
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF.g.resources
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF.Properties.Resources.resources
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF.csproj.GenerateResource.Cache
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Debug\CircularProgressBar.WPF.pdb

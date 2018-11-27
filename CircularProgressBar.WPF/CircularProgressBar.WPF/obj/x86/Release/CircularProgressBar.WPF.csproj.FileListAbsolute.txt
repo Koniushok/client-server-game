@@ -1,0 +1,16 @@
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\bin\Release\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\bin\Release\CircularProgressBar.WPF.pdb
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.baml
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\MainWindow.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\App.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF_MarkupCompile.cache
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF_MarkupCompile.lref
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\MainWindow.baml
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF.g.resources
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF.Properties.Resources.resources
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF.csproj.GenerateResource.Cache
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\курсов\CircularProgressBar.WPF\CircularProgressBar.WPF\obj\x86\Release\CircularProgressBar.WPF.pdb

@@ -1,0 +1,18 @@
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Release\Command.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Release\Command.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\obj\Release\ClientLibrary.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\obj\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\obj\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Release\Games.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\bin\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\bin\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\bin\Release\Command.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\bin\Release\Games.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\bin\Release\Command.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\obj\Release\ClientLibrary.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\obj\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\ClientLibrary\obj\Release\ClientLibrary.pdb

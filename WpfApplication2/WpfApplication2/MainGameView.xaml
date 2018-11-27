@@ -1,0 +1,415 @@
+﻿<Window x:Class="Game.MainGameView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Game"
+        mc:Ignorable="d"
+        xmlns:DesignInControl="clr-namespace:DesignInControl;assembly=CircularProgressBar.WPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Title="MainGameView"
+        Height="600"
+        Width="600">
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*" />
+            <RowDefinition Height="163*" />
+        </Grid.RowDefinitions>
+
+
+       
+
+        <Grid x:Name="GridMap"
+              Margin="0,25.4,0,0"
+              Grid.Row="1">
+
+            <Viewbox x:Name="MapViewbox">
+                <local:MainMap x:Name="MapView">
+
+                </local:MainMap>
+
+
+            </Viewbox>
+
+
+
+        </Grid>
+
+        <Grid x:Name="BlackGrid"
+              Background="#CC000000"
+              Visibility="Hidden"
+              Grid.RowSpan="2"></Grid>
+
+        <Viewbox Margin="50,25.8,50,10"
+                 Grid.Row="1">
+            <Grid x:Name="MainTaskView">
+
+            </Grid>
+        </Viewbox>
+
+
+
+        <Rectangle Height="131"
+                   VerticalAlignment="Top"
+                   Margin="0,0,1,0"
+                   MouseDown="Rectangle_MouseDown"
+                   Fill="#FF089CFF"
+                   Grid.RowSpan="2">
+
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction="0"
+                                  ShadowDepth="1"
+                                  Color="#FF090303" />
+            </Rectangle.Effect>
+        </Rectangle>
+
+
+
+        <TextBlock HorizontalAlignment="Stretch"
+                   Foreground="#FF0BF741"
+                   VerticalAlignment="Stretch"
+                   Text="+3000"
+                   FontFamily="Playbill"
+                   TextDecorations="{x:Null}"
+                   FontWeight="Bold"
+                   Margin="104,66,385,486"
+                   x:Name="MyPointAdd"
+                   FontSize="55"
+                   Grid.RowSpan="2" />
+
+
+        <TextBlock HorizontalAlignment="Stretch"
+                   Foreground="#FF0BF741"
+                   VerticalAlignment="Top"
+                   Text="+3000"
+                   FontFamily="Playbill"
+                   TextDecorations="{x:Null}"
+                   FontWeight="Bold"
+                   Margin="455,66,42,0"
+                   x:Name="EnemyPointAdd"
+                   FontSize="55"
+                   Height="52"
+                   Grid.RowSpan="2" />
+
+
+
+        <Grid x:Name="InfPlayer1"
+              Margin="351,0,0,469"
+              Grid.RowSpan="2">
+            <Rectangle Height="97"
+                       VerticalAlignment="Bottom"
+                       RadiusY="10"
+                       RadiusX="10"
+                       Fill="White"
+                       Margin="15">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="30"
+                                      Direction="0"
+                                      ShadowDepth="1" />
+                </Rectangle.Effect>
+            </Rectangle>
+
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                    BorderBrush="{x:Null}"
+                    Padding="0"
+                    Width="Auto"
+                    Height="Auto"
+                    RenderTransformOrigin="0.5,0.5"
+                    Margin="23,29,151,27"
+                    Click="Button_Click_EnemyProfile">
+
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Button.RenderTransform>
+
+                <Button.Background>
+                    <ImageBrush x:Name="EnemyImage"
+                                Stretch="UniformToFill"
+                               />
+                </Button.Background>
+            </Button>
+
+            <Viewbox Stretch="Uniform"
+                     Margin="103,65,20,10">
+                <TextBlock x:Name="EnemyPoints"
+                           HorizontalAlignment="Stretch"
+                           Foreground="#FFB0360D"
+                           VerticalAlignment="Stretch"
+                           Text="3500"
+                           FontFamily="Playbill"
+                           TextDecorations="{x:Null}"
+                           FontWeight="Bold" />
+            </Viewbox>
+
+            <Viewbox Stretch="Uniform"
+                     Margin="103,19,20,66">
+                <TextBlock x:Name="EnemyName"
+                           HorizontalAlignment="Stretch"
+                           Foreground="#FFA8220B"
+                           VerticalAlignment="Stretch"
+                           Text="Val.bat"
+                           FontFamily="Impact"
+                           TextDecorations="{x:Null}" />
+            </Viewbox>
+
+            <Grid x:Name="EnemyGridTime"
+                  Visibility="Hidden">
+            <Rectangle Height="27"
+                       VerticalAlignment="Bottom"
+                       RadiusY="10"
+                       RadiusX="10"
+                       Fill="White"
+                           Margin="23,0,150.8,2.2">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="30"
+                                      Direction="0"
+                                      ShadowDepth="1" />
+                </Rectangle.Effect>
+            </Rectangle>
+                <TextBlock Text="02:34"
+                           x:Name="TextTimeEnemy"
+                           Margin="33,100,159.8,4.2"
+                           FontSize="23">
+                    
+                </TextBlock>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="InfPlayer2"
+              Margin="0,0,351,469"
+              Grid.RowSpan="2">
+            <Rectangle Height="97"
+                       VerticalAlignment="Bottom"
+                       RadiusY="10"
+                       RadiusX="10"
+                       Fill="White"
+                       Margin="15">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="30"
+                                      Direction="0"
+                                      ShadowDepth="1" />
+                </Rectangle.Effect>
+            </Rectangle>
+
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                    BorderBrush="{x:Null}"
+                    Padding="0"
+                    Width="Auto"
+                    Height="Auto"
+                    Click="Button_Click_MyProfile"
+                    RenderTransformOrigin="0.5,0.5"
+                    Margin="23,29,151,27">
+
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Button.RenderTransform>
+
+                <Button.Background>
+                    <ImageBrush x:Name="MyImage"
+                                Stretch="UniformToFill" />
+                </Button.Background>
+            </Button>
+
+            <Viewbox Stretch="Uniform"
+                     Margin="103,65,20,10">
+                <TextBlock x:Name="MyPoints"
+                           HorizontalAlignment="Stretch"
+                           Foreground="#FF00910C"
+                           VerticalAlignment="Stretch"
+                           Text="3500"
+                           FontFamily="Playbill"
+                           TextDecorations="{x:Null}"
+                           FontWeight="Bold" />
+            </Viewbox>
+
+            <Viewbox Stretch="Uniform"
+                     Margin="103,19,20,66">
+                <TextBlock x:Name="MyName"
+                           HorizontalAlignment="Stretch"
+                           Foreground="#FF348E12"
+                           VerticalAlignment="Stretch"
+                           Text="Val.bat2"
+                           FontFamily="Impact"
+                           TextDecorations="{x:Null}" />
+            </Viewbox>
+
+            <Grid x:Name="MyGridTime" Visibility="Hidden">
+                <Rectangle Height="27"
+                           VerticalAlignment="Bottom"
+                           RadiusY="10"
+                           RadiusX="10"
+                           Fill="White"
+                           Margin="23,0,150.8,2.2">
+                    <Rectangle.Effect>
+                        <DropShadowEffect BlurRadius="30"
+                                          Direction="0"
+                                          ShadowDepth="1" />
+                    </Rectangle.Effect>
+                </Rectangle>
+                <TextBlock Text="02:34"
+                           x:Name="TextTimeMy"
+                           Margin="33,100,159.8,4.2"
+                           FontSize="23">
+
+                </TextBlock>
+            </Grid>
+        </Grid>
+
+        <DesignInControl:CircularProgressBar HorizontalAlignment="Center"
+                                             VerticalAlignment="Center"
+                                             Percentage="100"
+                                             StrokeThickness="9"
+                                             SegmentColor="#4C000D40"
+                                             Radius="48"
+                                             Margin="244,13,238,470"
+                                             Height="117"
+                                             Width="118"
+                                             Grid.RowSpan="2" />
+        <DesignInControl:CircularProgressBar x:Name="TimeStatus"
+                                             HorizontalAlignment="Center"
+                                             VerticalAlignment="Center"
+                                             Percentage="100"
+                                             StrokeThickness="9"
+                                             SegmentColor="#FF7400FF"
+                                             Radius="48"
+                                             Margin="244,13,238,470"
+                                             Height="117"
+                                             Width="118"
+                                             Grid.RowSpan="2" />
+        
+
+        <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                BorderBrush="{x:Null}"
+                Padding="0"
+                Width="Auto"
+                Height="Auto"
+                RenderTransformOrigin="0.5,0.5"
+                Margin="250,29,248,0.2"
+                Click="Button_ClickUP">
+
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </Button.RenderTransform>
+
+            <Button.Background>
+                <ImageBrush x:Name="StatusImg"
+                            
+                            Stretch="Uniform" />
+            </Button.Background>
+        </Button>
+
+
+        <Grid x:Name="ResultGrid"
+              Margin="-1,60.8,1,69"
+              Grid.Row="1"
+              Background="#4C000000"
+              Visibility="Hidden">
+
+        </Grid>
+
+        <Grid x:Name="GridProfile"
+              Height="447"
+              Width="350.4"
+              Margin="124,19.8,126,22"
+              Visibility="Visible"
+              Grid.Row="1" />
+
+        <Button x:Name="ButtonClose"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Width="Auto"
+                Height="Auto"
+                Padding="0"
+                Background="{x:Null}"
+                BorderBrush="{x:Null}"
+                Click="ButtonClose_Click"
+                Margin="577,0,0,92.2"
+                Foreground="White">
+            <materialDesign:PackIcon Kind="Power" />
+        </Button>
+
+        <Grid x:Name="GridExit"
+              Background="#CC000000"
+              Visibility="Hidden"
+              Grid.RowSpan="2">
+            <Rectangle Margin="150"
+                       RadiusY="10"
+                       RadiusX="10"
+                       Fill="White"
+                       Height="177"
+                       RenderTransformOrigin="0.5,0.5">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1" />
+                        <SkewTransform />
+                        <RotateTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="40"
+                                      Direction="0"
+                                      ShadowDepth="1" />
+                </Rectangle.Effect>
+            </Rectangle>
+            <TextBlock Text="Выйти из игры?"
+                       FontSize="40"
+                       Margin="156,220,144,215">
+
+            </TextBlock>
+            <Button Margin="166,337,334,231"
+                    Content="ДА"
+                    FontSize="15"
+                    Click="ButtonOK">
+
+            </Button>
+            <Button Margin="335,337,165,231"
+                    Content="НЕТ"
+                    FontSize="15"
+                    Click="ButtonNO">
+
+            </Button>
+        </Grid>
+
+       
+            <materialDesign:Snackbar IsActive="False"
+                                 x:Name="Snackbar"
+                                 Background="#E5000000"
+                                 Margin="156,0"
+                                 Grid.Row="1">
+            <materialDesign:SnackbarMessage ActionContent="OK"
+                                            ActionClick="AnsverSnackbarClick"
+                                            >
+
+                <materialDesign:RatingBar Value="0"
+                                          
+                                          x:Name="BasicRatingBar"
+                                          Background="White" />
+
+            </materialDesign:SnackbarMessage>
+        </materialDesign:Snackbar>
+    </Grid>
+
+</Window>

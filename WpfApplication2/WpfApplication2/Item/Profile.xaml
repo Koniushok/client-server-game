@@ -1,0 +1,167 @@
+﻿<UserControl x:Class="Game.Profile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Game"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"
+             d:DesignHeight="447"
+             d:DesignWidth="350.4">
+
+    <Grid Background="White">
+
+        <Rectangle Width="350"
+                   Height="272"
+                   VerticalAlignment="Bottom"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,175.2">
+            <Rectangle.Fill>
+                <ImageBrush x:Name="Fon" />
+            </Rectangle.Fill>
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction="0"
+                                  ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+
+            </Rectangle.Effect>
+
+        </Rectangle>
+        <Button x:Name="button"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                BorderBrush="{x:Null}"
+                Padding="0"
+                Width="Auto"
+                Height="Auto"
+                Margin="96,10,97.4,273.8"
+                RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform />
+                    <RotateTransform />
+                    <TranslateTransform />
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+
+                <ImageBrush x:Name="MyImage"
+                            Stretch="UniformToFill" />
+            </Button.Background>
+        </Button>
+
+        <Viewbox Margin="96,169,97.4,235.8">
+            <TextBlock Text="Val.bat"
+                       x:Name="TextLogin"
+                       FontFamily="MS Office Symbol Semibold"
+                       Foreground="#FF1A1515" />
+        </Viewbox>
+        <TextBlock Text="Фамилия"
+                   FontFamily="MS Office Symbol Semibold"
+                   Foreground="#FF1A1515"
+                   Margin="19,219,259.4,207.8" />
+
+        <TextBlock Text="Конюшок"
+                   x:Name="TextSurName"
+                   FontFamily="MS Office Symbol Semibold"
+                   Foreground="#FF1A1515"
+                   Margin="19,233,125.4,185.8"
+                   FontSize="20" />
+
+        <TextBlock Text="Имя"
+                   FontFamily="MS Office Symbol Semibold"
+                   Foreground="#FF1A1515"
+                   Margin="225,219,47.4,207.8" />
+        <TextBlock Text="Валерий"
+                   x:Name="TextName"
+                   FontFamily="MS Office Symbol Semibold"
+                   Foreground="#FF1A1515"
+                   Margin="224,233,2.4,185.8"
+                   FontSize="20" />
+
+        <Grid Margin="0,266,0.4,-0.2">
+
+
+            <StackPanel Margin="0,0,221,1">
+                <TextBlock Text="Игр"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="10,25,0,2" />
+                <TextBlock Text="Побед"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="10,25,0,2" />
+                <TextBlock Text="Процент побед"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="10,25,0,2" />
+            </StackPanel>
+            <StackPanel Margin="174,0,58,0">
+                <TextBlock Text="Вопросов"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="12,25,0,2" />
+                <TextBlock FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="12,16,-0.8,2"
+                           Height="36"><Run Text="Правильных " /><LineBreak /><Run Text="ответов" /></TextBlock>
+                <TextBlock Text="Покинуто игр"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="12,15,0,2" />
+            </StackPanel>
+
+            <StackPanel Margin="134,0,176,0">
+                <TextBlock Text="5"
+                           x:Name="TextNumGame"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="0,27,0,2" />
+                <TextBlock Text="10"
+                           x:Name="TextWimGame"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="0,25,0,2" />
+                <TextBlock Text="50%"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           x:Name="TextWinNumGame"
+                           FontSize="16"
+                           Margin="0,25,0,2" />
+            </StackPanel>
+
+            <StackPanel Margin="310,0,0,0">
+                <TextBlock Text="5"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           x:Name="TextNumAnswer"
+                           Margin="0,27,0,2" />
+                <TextBlock Text="10"
+                           x:Name="TextCorrectAnswer"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           Margin="0,25,0,2" />
+                <TextBlock Text="12"
+                           FontFamily="MS Office Symbol Semibold"
+                           Foreground="#FF1A1515"
+                           FontSize="16"
+                           x:Name="TextLeveGame"
+                           Margin="0,25,0,2" />
+            </StackPanel>
+
+
+        </Grid>
+
+    </Grid>
+</UserControl>

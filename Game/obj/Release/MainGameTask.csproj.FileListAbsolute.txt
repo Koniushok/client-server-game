@@ -1,0 +1,10 @@
+C:\Users\валера\Desktop\курсов\Servir\Game\bin\Release\Games.dll
+C:\Users\валера\Desktop\курсов\Servir\Game\bin\Release\Games.pdb
+C:\Users\валера\Desktop\курсов\Servir\Game\obj\Release\Games.dll
+C:\Users\валера\Desktop\курсов\Servir\Game\obj\Release\Games.pdb
+C:\Users\валера\Desktop\курсов\Servir\Game\obj\Release\MainGameTask.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Servir\Game\bin\Release\Games.dll
+C:\Users\валера\Desktop\новая папка\Servir\Game\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\Servir\Game\obj\Release\MainGameTask.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Servir\Game\obj\Release\Games.dll
+C:\Users\валера\Desktop\новая папка\Servir\Game\obj\Release\Games.pdb

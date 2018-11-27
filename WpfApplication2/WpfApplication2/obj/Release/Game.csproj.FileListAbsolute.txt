@@ -1,0 +1,78 @@
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Game.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\MainMap.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\TaskView.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\App.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignColors.dll
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\Command.dll
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\CircularProgressBar.WPF.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignColors.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\Command.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\MainGameView.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\App.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\MainGameView.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\MainMap.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\TaskView.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Game.Properties.Resources.resources
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Game.csproj.GenerateResource.Cache
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Result.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Result.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Item\Profile.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Item\Report.g.cs
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Item\Profile.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\Item\Report.baml
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\Games.dll
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\Games.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\GameMap.exe.config
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\GameMap.exe
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\bin\Release\GameMap.pdb
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\GameMap_MarkupCompile.cache
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\GameMap_MarkupCompile.lref
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\GameMap.g.resources
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\GameMap.exe
+C:\Users\валера\Desktop\курсов\WpfApplication2\WpfApplication2\obj\Release\GameMap.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\GameMap.exe.config
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\GameMap.exe
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\GameMap.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\Command.dll
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\Games.dll
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignColors.dll
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\CircularProgressBar.WPF.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\Command.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignColors.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Game.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\MainGameView.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\MainMap.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Item\Profile.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Item\Report.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Result.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\TaskView.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\App.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\GameMap_MarkupCompile.cache
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\GameMap_MarkupCompile.lref
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\App.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\MainGameView.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\MainMap.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Item\Profile.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Item\Report.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Result.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\TaskView.baml
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\GameMap.g.resources
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Game.Properties.Resources.resources
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\Game.csproj.GenerateResource.Cache
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\GameMap.exe
+C:\Users\валера\Desktop\новая папка\WpfApplication2\WpfApplication2\obj\Release\GameMap.pdb

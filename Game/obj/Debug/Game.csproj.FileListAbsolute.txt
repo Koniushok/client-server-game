@@ -1,0 +1,5 @@
+C:\Users\валера\Desktop\курсов\Servir\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\Servir\Game\bin\Debug\Game.dll
+C:\Users\валера\Desktop\курсов\Servir\Game\bin\Debug\Game.pdb
+C:\Users\валера\Desktop\курсов\Servir\Game\obj\Debug\Game.dll
+C:\Users\валера\Desktop\курсов\Servir\Game\obj\Debug\Game.pdb

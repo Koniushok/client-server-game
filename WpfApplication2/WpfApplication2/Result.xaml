@@ -1,0 +1,168 @@
+﻿<UserControl x:Class="Game.Result"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Game"
+             mc:Ignorable="d"
+             d:DesignWidth="600"
+             Height="352.8">
+    <materialDesign:TransitioningContent OpeningEffect="{materialDesign:TransitionEffect Kind=ExpandIn, Duration=0:0:1.7}">
+        <Grid>
+
+            <Viewbox Margin="122,0,138,235.8">
+                <TextBlock x:Name="TextResult"
+                           Text="Победа!!!"
+                           Foreground="#FF00FF1F"
+                           FontWeight="Bold"
+                           FontFamily="Vani">
+
+                </TextBlock>
+            </Viewbox>
+            
+            <materialDesign:TransitioningContent OpeningEffect="{materialDesign:TransitionEffect Kind=SlideInFromTop, Duration=0:0:2.5}">
+                <StackPanel Margin="8,179,326,36.8">
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock x:Name="MyPoint"
+                                   Text="Количество очков: "
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock Text="Правильных ответов: "
+                                   x:Name="myCorrectAnswer"
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock Text="Общие время ответов: "
+                                   x:Name="myTimeAnsver"
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+                    
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+
+            <materialDesign:TransitioningContent OpeningEffect="{materialDesign:TransitionEffect Kind=SlideInFromTop, Duration=0:0:2.5}">
+                <StackPanel Margin="324,179,11,42.8">
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock x:Name="enemyPoint"
+                                   Text="Количество очков: "
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock Text="Правильных ответов: "
+                                   x:Name="enemyCorrectAnswer"
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock Text="Общие время ответов: "
+                                   Foreground="White"
+                                   x:Name="enemyTimeAnsver"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+            <Button Height="Auto"
+                    Margin="173,294,174,10.8"
+                    Content="OK"
+                        FontSize="26"
+                        Click="Button_Click">
+
+                </Button>
+
+            <materialDesign:TransitioningContent OpeningEffect="{materialDesign:TransitionEffect Kind=SlideInFromBottom, Duration=0:0:2.5}">
+                <StackPanel Margin="168,81,166,134.8">
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock x:Name="numNumStep"
+                                   
+                                   Text="Количество шагов: "
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock Text="Количество вопросов: "
+                                   x:Name="NumAnswer"
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+
+                    <Viewbox Margin="0"
+                             Height="34">
+                        <TextBlock Text="Время игры: "
+                                   x:Name="GameTime"
+                                   Foreground="White"
+                                   FontWeight="Bold" />
+                    </Viewbox>
+
+
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                    BorderBrush="{x:Null}"
+                    Padding="0"
+                    Width="Auto"
+                    Height="Auto"
+                    RenderTransformOrigin="0.5,0.5"
+                    Margin="462,30,26,212.8">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Button.RenderTransform>
+
+                <Button.Background>
+                    <ImageBrush x:Name="EnemyImage"
+                                Stretch="UniformToFill"
+                                />
+                </Button.Background>
+            </Button>
+
+            <Button Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                    BorderBrush="{x:Null}"
+                    Padding="0"
+                    Width="Auto"
+                    Height="Auto"
+                    RenderTransformOrigin="0.5,0.5"
+                    Margin="10,30,478,212.8">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform />
+                        <RotateTransform />
+                        <TranslateTransform />
+                    </TransformGroup>
+                </Button.RenderTransform>
+
+                <Button.Background>
+                    <ImageBrush x:Name="MyImage"
+                                Stretch="UniformToFill"
+                               />
+                </Button.Background>
+            </Button>
+
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>

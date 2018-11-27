@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="Login.Registration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Login"
+             mc:Ignorable="d"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Width="350"
+             Height="500">
+    <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide"
+                                         OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.6}">
+        <Grid Background="White">
+
+
+
+            <Rectangle Height="56"
+                       VerticalAlignment="Top"
+                       Margin="0,0,0.4,0"
+                       MouseDown="Rectangle_MouseDown"
+                       Fill="#007ACC">
+
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="15"
+                                      Direction="0"
+                                      RenderingBias="Quality"
+                                      ShadowDepth="1"
+                                      Color="#FF090303" />
+                </Rectangle.Effect>
+            </Rectangle>
+
+            <Label Content="Регистрация"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Margin="93,0,89.4,0"
+                   Foreground="White"
+                   FontWeight="Black"
+                   FontSize="26" />
+
+            <materialDesign:PackIcon Kind="LeadPencil"
+                                     Height="35"
+                                     Width="35"
+                                     Foreground="White"
+                                     Margin="261,6,0,0" />
+
+
+            <Button x:Name="ButtonExit"
+                    Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                    Width="Auto"
+                    Height="Auto"
+                    Background="{x:Null}"
+                    BorderBrush="{x:Null}"
+                    Foreground="White"
+                    Click="ButtonExit_Click"
+                    Margin="5,10,307.4,452">
+                <materialDesign:PackIcon Kind="ArrowLeftBold"
+                                         Height="38"
+                                         Width="38" />
+            </Button>
+
+
+            <StackPanel VerticalAlignment="Center"
+                        Margin="20,72,20.4,116">
+                <TextBox Margin="0,10,-0.6,10"
+                         materialDesign:HintAssist.Hint="Имя"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines"
+                         FontSize="18"
+                         Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+                <TextBox Margin="0,10,-0.6,10"
+                         materialDesign:HintAssist.Hint="Фамилия"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines"
+                         FontSize="18"
+                         Text="{Binding Surname, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+                <TextBox Margin="0,10,-0.6,10"
+                         materialDesign:HintAssist.Hint="Логин"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines"
+                         FontSize="18"
+                         Text="{Binding Login, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+                <TextBox Margin="0,10,-0.6,10"
+                         materialDesign:HintAssist.Hint="Пароль"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines"
+                         FontSize="18"
+                         Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+
+            </StackPanel>
+            <Button x:Name="ButtonEntry"
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Center"
+                    Content="зарегистрироваться"
+                    Click="ButtonEntry_Click"
+                    FontSize="20"
+                    Command="{Binding ButtonClick}"
+                    Height="44"
+                    Width="229"
+                    Margin="61,0,60.4,35" />
+            <Viewbox Stretch="Uniform"
+                     Margin="10,375,10.4,108">
+                <TextBlock x:Name="Result" 
+                           HorizontalAlignment="Stretch"
+                           Foreground="LimeGreen"
+                           FontWeight="Black"
+                           VerticalAlignment="Stretch" />
+            </Viewbox>
+            
+        </Grid>
+    </materialDesign:TransitioningContent>
+</UserControl>

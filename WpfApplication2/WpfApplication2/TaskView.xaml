@@ -1,0 +1,164 @@
+﻿<ContentControl x:Class="Game.TaskView"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:local="clr-namespace:Game"
+                xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+                mc:Ignorable="d"
+                Width="256"
+                Height="252.266">
+    <ContentControl.Resources>
+
+
+
+
+
+
+        <Style x:Key="Selected"
+               BasedOn="{StaticResource MaterialDesignRaisedButton}"
+               TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Background"
+                        Value="#FF13C808" />
+                <Setter Property="Cursor"
+                        Value="" />
+            </Style.Setters>
+
+            <Style.Triggers>
+                <Trigger Property="IsEnabled"
+                         Value="false">
+                    <Setter Property="Background"
+                            Value="Black" />
+                    <Setter Property="BorderBrush"
+                            Value="Black" />
+
+                </Trigger>
+            </Style.Triggers>
+
+
+
+
+        </Style>
+
+        <Style x:Key="SelectedEnemy"
+               BasedOn="{StaticResource MaterialDesignRaisedButton}"
+               TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Background"
+                        Value="Red" />
+                <Setter Property="Cursor"
+                        Value="" />
+
+            </Style.Setters>
+        </Style>
+
+        <Style x:Key="MyAndEnemy"
+               BasedOn="{StaticResource MaterialDesignRaisedButton}"
+               TargetType="Button">
+
+            <Style.Setters>
+                <Setter Property="Cursor"
+                        Value="" />
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <LinearGradientBrush EndPoint="0.9,1"
+                                             MappingMode="RelativeToBoundingBox"
+                                             StartPoint="0.1,0">
+                            <GradientStop Color="#FF36CA08"
+                                          Offset="0.5" />
+                            <GradientStop Color="#FFF91B00"
+                                          Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Setter.Value>
+
+                </Setter>
+
+            </Style.Setters>
+        </Style>
+
+        <Style x:Key="IsFalse"
+               BasedOn="{StaticResource MaterialDesignRaisedButton}"
+               TargetType="Button">
+            <Style.Setters>
+                <Setter Property="Cursor"
+                        Value="" />
+            </Style.Setters>
+        </Style>
+
+
+
+
+
+    </ContentControl.Resources>
+
+    <materialDesign:TransitioningContent x:Name="val"
+                                         OpeningEffect="{materialDesign:TransitionEffect Kind=SlideInFromTop, Duration=0:0:0.5}">
+        <Grid Background="White"
+              Margin="0,0,0,-0.4">
+            <Rectangle Height="62"
+                       VerticalAlignment="Top">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1"
+                                         StartPoint="0.5,0">
+                        <GradientStop Color="#FF7000E5" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <local:TextBlockFilled x:Name="Question"
+                                   Text="Какой  в мире"
+                                   Margin="0,6,0,194" />
+
+            <StackPanel Margin="0,67,0,0">
+                <Button Height="32"
+                        Margin="6"
+                        x:Name="AnswerButton0"
+                        Click="AnsverClick">
+                    <local:TextBlockFilled Text="Слон1"
+                                           x:Name="AnswerText0"
+                                           Width="210"
+                                           Height="24" />
+                </Button>
+                <Button Height="32"
+                        Margin="6"
+                        x:Name="AnswerButton1"
+                        Click="AnsverClick">
+
+                    <local:TextBlockFilled Text="Слон1"
+                                           x:Name="AnswerText1"
+                                           Width="210"
+                                           Height="24" />
+                </Button>
+                <Button Height="32"
+                        Margin="6"
+                        x:Name="AnswerButton2"
+                        Click="AnsverClick">
+                    <local:TextBlockFilled Text="Слон1"
+                                           Width="210"
+                                           x:Name="AnswerText2"
+                                           Height="24" />
+                </Button>
+                <Button Height="32"
+                        Margin="6"
+                        x:Name="AnswerButton3"
+                        Click="AnsverClick">
+                    <local:TextBlockFilled Text="Слон1"
+                                           x:Name="AnswerText3"
+                                           Width="210"
+                                           Height="24" />
+                </Button>
+
+
+            </StackPanel>
+
+
+           
+        </Grid>
+
+
+
+
+    </materialDesign:TransitioningContent>
+
+</ContentControl>

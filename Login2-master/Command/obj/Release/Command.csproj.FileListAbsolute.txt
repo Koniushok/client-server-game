@@ -1,0 +1,10 @@
+C:\Users\валера\Desktop\курсов\Login2-master\Command\bin\Release\Command.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Command\bin\Release\Command.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Command\obj\Release\Command.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Command\obj\Release\Command.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Command\obj\Release\Command.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Login2-master\Command\bin\Release\Command.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Command\bin\Release\Command.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Command\obj\Release\Command.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Login2-master\Command\obj\Release\Command.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Command\obj\Release\Command.pdb

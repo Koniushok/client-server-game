@@ -1,0 +1,95 @@
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MaterialDesignColors.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\Command.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\CircularProgressBar.WPF.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\Command.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\Login.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\menu\GameMenu.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainMenu.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\Menu.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\loading\SpinnerSwirl.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\menu\SettingsMenu.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\View\Registration.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\View\Authorization.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainWindow.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\View\Settings.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\App.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\App.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\menu\GameMenu.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainMenu.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\Menu.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\loading\SpinnerSwirl.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\menu\SettingsMenu.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\View\Registration.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\View\Authorization.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainWindow.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\View\Settings.baml
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\Login.Properties.Resources.resources
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\Login.csproj.GenerateResource.Cache
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\Games.dll
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\Games.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MainGame.exe.config
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MainGame.exe
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\MainGame.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\GameMap.exe
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\bin\Release\GameMap.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainGame_MarkupCompile.cache
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainGame_MarkupCompile.lref
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainGame.g.resources
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainGame.exe
+C:\Users\валера\Desktop\курсов\Login2-master\Login2\obj\Release\MainGame.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MainGame.exe.config
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainGame.exe
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainGame.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MainGame.exe
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MainGame.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\ClientLibrary.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\GameMap.exe
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\Games.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MaterialDesignColors.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\CircularProgressBar.WPF.exe
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\Command.dll
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\Games.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\GameMap.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\ClientLibrary.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\CircularProgressBar.WPF.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\bin\Release\Command.pdb
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\Login.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\menu\GameMenu.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainMenu.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\Menu.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\loading\SpinnerSwirl.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\menu\SettingsMenu.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\View\Registration.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\View\Authorization.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainWindow.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\View\Settings.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\App.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainGame_MarkupCompile.cache
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainGame_MarkupCompile.lref
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\App.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\menu\GameMenu.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainMenu.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\Menu.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\loading\SpinnerSwirl.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\menu\SettingsMenu.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\View\Registration.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\View\Authorization.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainWindow.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\View\Settings.baml
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\MainGame.g.resources
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\Login.Properties.Resources.resources
+C:\Users\валера\Desktop\новая папка\Login2-master\Login2\obj\Release\Login.csproj.GenerateResource.Cache
+C:\Users\Val\Desktop\New folder\КурсоваяEND\новая папка\Login2-master\Login2\bin\Release\MainGame.exe.config
+C:\Users\Val\Desktop\New folder\КурсоваяEND\новая папка\Login2-master\Login2\obj\Release\MainGame.exe
+C:\Users\Val\Desktop\New folder\КурсоваяEND\новая папка\Login2-master\Login2\obj\Release\MainGame.pdb

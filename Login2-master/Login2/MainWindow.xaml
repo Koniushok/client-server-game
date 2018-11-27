@@ -1,0 +1,166 @@
+﻿<Window x:Name="window"
+        x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Login"
+        Height="500"
+        Width="350"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        FontFamily="Segoe UI Emoji">
+
+    <Grid x:Name="MainGrid">
+
+
+        <Rectangle Height="280"
+                   VerticalAlignment="Top"
+                   MouseDown="Rectangle_MouseDown">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF2281D1" />
+                    <GradientStop Color="#FF34268A"
+                                  Offset="1" />
+                    <GradientStop Color="#FF33288B"
+                                  Offset="0.546" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Width="280"
+                   Height="240"
+                   VerticalAlignment="Bottom"
+                   Margin="0,80"
+                   RadiusY="10"
+                   RadiusX="10"
+                   Fill="White">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15"
+                                  Direction="0"
+                                  ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+        
+        <Grid VerticalAlignment="Bottom"
+              Margin="35,0,35.4,65"
+              Height="255"
+              x:Name="GridPrincipal">
+        </Grid>
+
+        <TextBlock Text="Регистрация"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="141,0,140.4,40"
+                   Foreground="Gray"
+                   Cursor="Hand"
+                   MouseDown="TextBlock_MouseDown" />
+
+        <Button x:Name="ButtonFechar"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Width="25"
+                Height="25"
+                Background="{x:Null}"
+                BorderBrush="{x:Null}"
+                Foreground="White"
+                Click="ButtonFechar_Click"
+                Margin="325,0,0.4,475">
+            <materialDesign:PackIcon Kind="Power" />
+        </Button>
+
+        <Button x:Name="ButtonSettings2"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Width="25"
+                Height="25"
+                Background="{x:Null}"
+                BorderBrush="{x:Null}"
+                Foreground="White"
+                Margin="300,0,25.4,475"
+                Click="ButtonSettings_Click">
+            <materialDesign:PackIcon Kind="Settings" />
+        </Button>
+
+        <materialDesign:PackIcon Kind="SignalVariant"
+                                 x:Name="KindServerStatus"
+                                 Foreground="Red"
+                                 Height="20"
+                                 Width="20" />
+
+        <Button x:Name="ButtonHome2"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Width="25"
+                Height="25"
+                Background="{x:Null}"
+                BorderBrush="{x:Null}"
+                Foreground="White"
+                Margin="300,0,25.4,475"
+                Click="ButtonHome2_Click"
+                Visibility="Hidden">
+            <materialDesign:PackIcon Kind="Home" />
+        </Button>
+
+        <Button x:Name="ButtonHome1"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Width="Auto"
+                Height="Auto"
+                Background="White"
+                BorderBrush="{x:Null}"
+                Margin="133,38,134.4,379">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF0F71DC"
+                                  Offset="0" />
+                    <GradientStop Color="#FF200979"
+                                  Offset="1" />
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <materialDesign:PackIcon Kind="Home"
+                                     Height="82"
+                                     Width="82" />
+        </Button>
+
+        <Button x:Name="ButtonSettings1"
+                Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}"
+                Width="Auto"
+                Height="Auto"
+                Background="White"
+                BorderBrush="{x:Null}"
+                Margin="133,38,134.4,379"
+                Visibility="Hidden">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1"
+                                     StartPoint="0.5,0">
+                    <GradientStop Color="#FF0F71DC"
+                                  Offset="0" />
+                    <GradientStop Color="#FF200979"
+                                  Offset="1" />
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <materialDesign:PackIcon Kind="Settings"
+                                     Height="82"
+                                     Width="82" />
+        </Button>
+
+
+        
+        <Viewbox Stretch="Uniform"
+                 Margin="80,465,80.4,20">
+            <TextBlock x:Name="Result"
+                       HorizontalAlignment="Stretch"
+                       Foreground="Red"
+                       FontWeight="Black"
+                       VerticalAlignment="Stretch"
+                       Visibility="Hidden"
+                       Text="Не верный логин или пароль" />
+        </Viewbox>
+
+    </Grid>
+</Window>

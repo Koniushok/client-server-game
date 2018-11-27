@@ -1,0 +1,9 @@
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Debug\ClientLibrary.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Debug\ClientLibrary.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Debug\Command.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Debug\Game.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Debug\Game.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\bin\Debug\Command.pdb
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\obj\Debug\ClientLibrary.csprojResolveAssemblyReference.cache
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\obj\Debug\ClientLibrary.dll
+C:\Users\валера\Desktop\курсов\Login2-master\ClientLibrary\obj\Debug\ClientLibrary.pdb
